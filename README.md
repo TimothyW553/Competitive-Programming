@@ -1,4 +1,4 @@
-# Competitive_Programming
+# Competitive Programming
 
 Stuff from Competitive Programming. For example, from CCC, DMOPC, TLE, etc...
 
