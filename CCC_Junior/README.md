@@ -1,7 +1,5 @@
 # Competitive Programming
 
-In this repository you will find some of my competitive programming stuff
+All my junior CCC problems
 
-Note: All programs are written in Java as I am not that good at C++ 
-
-Have a nice day :D
+I have sorted the S1, S2, S3, S4, and S5s into different folders so it will be much easier to navigate
