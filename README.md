@@ -1,5 +1,7 @@
-# Competitive_Programming
+# Competitive Programming
 
-Stuff from Competitive Programming. For example, from CCC, DMOPC, TLE, etc...
+Compilation of all the programs for practice and contests
 
-I mostly use JAVA but will use C++ occasionally
+Under the contest package, you will find my Java solutions to various programming contests and practice problems. The solutions are oganized by the name of the contest
+
+Problems sets are organized into different folders
