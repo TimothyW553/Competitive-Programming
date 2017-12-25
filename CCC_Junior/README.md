@@ -1,4 +1,5 @@
 # Competitive Programming
+System.out.println("Hello World!");
 
 Junior CCC problem solutions
 
