@@ -1,7 +1,6 @@
-# Competitive Programming
-System.out.println("Hello World!");
+# CCC (Canadian Computing Competition) Junior Solutions
 
-Junior CCC problem solutions
+By: Timothy Wang 
 
 The following CCC_Junior contains:
   - Solutions to CCC junior problems
