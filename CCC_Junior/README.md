@@ -89,7 +89,7 @@
     - **Junior #5:** _In progress_
     
  - ### **2013:**
-    - **Junior #1:** _Complete **(50/50) - 3.80s_
+    - **Junior #1:** _Complete **(50/50) - 3.80s**_
     - **Junior #2:** _Complete_
     - **Junior #3:** _Complete_
     - **Junior #4:** _In progress_
