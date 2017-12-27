@@ -111,7 +111,7 @@
     
  - ### **2016:**
     - **Junior #1:** _Complete **(15/15) - 1.40s**_
-    - **Junior #2:** _Complete **(15/15) - 2.89s** _
+    - **Junior #2:** _Complete **(15/15) - 2.89s**_
     - **Junior #3:** _Complete_
     - **Junior #4:** _In progress_
     - **Junior #5:** _In progress_
