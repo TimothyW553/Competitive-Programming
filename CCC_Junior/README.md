@@ -68,63 +68,56 @@
     - **Junior #5:** _In progress_
     
  - ### **2010:**
-    - **Junior #1:** _Complete **(90/90) - 1.89s** _
+    - **Junior #1:** _Complete **(90/90) - 1.89s**_
     - **Junior #2:** _Complete_
     - **Junior #3:** _Complete_
     - **Junior #4:** _In progress_
     - **Junior #5:** _In progress_
     
  - ### **2011:**
-    - **Junior #1:** _Complete_
+    - **Junior #1:** _Complete **(250/250) - 2.41s**_
     - **Junior #2:** _Complete_
     - **Junior #3:** _Complete_
     - **Junior #4:** _In progress_
     - **Junior #5:** _In progress_
-    
- - ### **2011:**
-    - **Junior #1:** _Complete_
-    - **Junior #2:** _Complete_
-    - **Junior #3:** _Complete_
-    - **Junior #4:** _In progress_
-    - **Junior #5:** _In progress_
-    
+
  - ### **2012:**
-    - **Junior #1:** _Complete_
+    - **Junior #1:** _Complete **(250/250) - 2.14s**_
     - **Junior #2:** _Complete_
     - **Junior #3:** _Complete_
     - **Junior #4:** _In progress_
     - **Junior #5:** _In progress_
     
  - ### **2013:**
-    - **Junior #1:** _Complete_
+    - **Junior #1:** _Complete **(50/50) - 3.80s_
     - **Junior #2:** _Complete_
     - **Junior #3:** _Complete_
     - **Junior #4:** _In progress_
     - **Junior #5:** _In progress_
     
  - ### **2014:**
-    - **Junior #1:** _Complete_
+    - **Junior #1:** _Complete **(350/350) - 1.45s**_
     - **Junior #2:** _Complete_
     - **Junior #3:** _Complete_
     - **Junior #4:** _In progress_
     - **Junior #5:** _In progress_
     
  - ### **2015:**
-    - **Junior #1:** _Complete_
+    - **Junior #1:** _Complete **(15/15) - 3.74s**_
     - **Junior #2:** _Complete_
     - **Junior #3:** _Complete_
     - **Junior #4:** _In progress_
     - **Junior #5:** _In progress_
     
  - ### **2016:**
-    - **Junior #1:** _Complete_
+    - **Junior #1:** _Complete **(15/15) - 1.40s**_
     - **Junior #2:** _Complete_
     - **Junior #3:** _Complete_
     - **Junior #4:** _In progress_
     - **Junior #5:** _In progress_
     
  - ### **2017:**
-    - **Junior #1:** _Complete_
+    - **Junior #1:** _Complete **(15/15) - 3.45s**_
     - **Junior #2:** _Complete_
     - **Junior #3:** _Complete_
     - **Junior #4:** _In progress_
