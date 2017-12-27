@@ -6,7 +6,12 @@ Under the contest package, you will find my Java solutions to various programmin
 
 Problems sets are organized into different folders
 
-  > CCC - Junior
+  > Canadian Computing Competition - Junior
+  - Junior #1 ✔
+  - Junior #2 ✔
+  - Junior #3 ✔
+  - Junior #4
+  - Junior #5
   
-  > CCC - Senior
+  > Canadian Computing Competition - Senior
   
