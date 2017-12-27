@@ -7,12 +7,9 @@ Under the contest package, you will find my Java solutions to various programmin
 Problems sets are organized into different folders
 
   > CCC - Junior
+  - J1
+  - J2
+  - J3
   
-    > J1
-    
-    > J2
-    
-    > J3
-    
   > CCC - Senior
   
