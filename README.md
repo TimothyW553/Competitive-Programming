@@ -10,7 +10,7 @@ Problems sets are organized into different folders
   - Junior #1 ✔
   - Junior #2 ✔
   - Junior #3 ✔
-  - Junior #4
+  - Junior #4 ✔
   - Junior #5
   
   > Canadian Computing Competition - Senior
