@@ -98,28 +98,28 @@
  - ### **2014:**
     - **Junior #1:** _Complete **(350/350) - 1.45s**_
     - **Junior #2:** _Complete **(50/50) - 2.25s**_
-    - **Junior #3:** _Complete_
+    - **Junior #3:** _Complete **(250/250) - 1.45s**_
     - **Junior #4:** _Complete_
     - **Junior #5:** _In progress_
     
  - ### **2015:**
     - **Junior #1:** _Complete **(15/15) - 3.74s**_
     - **Junior #2:** _Complete **(15/15) - 1.80s**_
-    - **Junior #3:** _Complete_
+    - **Junior #3:** _Complete **(15/15) - 0.94s**_
     - **Junior #4:** _Complete_
     - **Junior #5:** _In progress_
     
  - ### **2016:**
     - **Junior #1:** _Complete **(15/15) - 1.40s**_
     - **Junior #2:** _Complete **(15/15) - 2.89s**_
-    - **Junior #3:** _Complete_
+    - **Junior #3:** _Complete **(15/15) - 2.19s**_
     - **Junior #4:** _Complete_
     - **Junior #5:** _In progress_
     
  - ### **2017:**
     - **Junior #1:** _Complete **(15/15) - 3.45s**_
     - **Junior #2:** _Complete **(15/15) - 2.76s**_
-    - **Junior #3:** _Complete_
+    - **Junior #3:** _Complete **(15/15) - 3.72s**_
     - **Junior #4:** _Complete_
     - **Junior #5:** _In progress_
     
