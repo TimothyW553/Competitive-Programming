@@ -123,4 +123,11 @@
     - **Junior #4:** _Complete **(15/15) - 3.32s**_
     - **Junior #5:** _In progress_
     
+ - ### **2018:**
+    - **Junior #1:** _Complete **(15/15) - 2.57s**_
+    - **Junior #2:** _Complete **(15/15) - 2.42s**_
+    - **Junior #3:** _Complete **(15/15) - 0.60s**_
+    - **Junior #4:** _Complete **(15/15) - 6.44s**_
+    - **Junior #5:** _In progress_
+    
  
