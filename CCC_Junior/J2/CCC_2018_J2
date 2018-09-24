@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class CCC_2018_J2 {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		String yesterday = sc.next();
+		String today = sc.next();
+		int count = 0;
+		for(int i = 0; i < n; i++) {
+			if(yesterday.charAt(i) == 'C' && today.charAt(i) == 'C')
+				count++;
+		}
+		System.out.println(count);
+	}
+}
