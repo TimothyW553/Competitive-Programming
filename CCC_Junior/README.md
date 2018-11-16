@@ -78,7 +78,7 @@
     - **Junior #1:** _Complete **(250/250) - 2.41s**_
     - **Junior #2:** _Complete **(100/100) - 1.15s**_
     - **Junior #3:** _Complete **(100/100) - 1.22s**_
-    - **Junior #4:** _In progress_ (Someone help me do this one)
+    - **Junior #4:** _Complete **(100/100) - 0.83s**_
     - **Junior #5:** _In progress_
 
  - ### **2012:**
