@@ -6,7 +6,7 @@ Under the contest package, you will find my Java solutions to various programmin
 
 Problems sets are organized into different folders
 
-## Note: This is only help if you are stuck. I am not doing this to boost my ego, unlike other people who upload their solutions on GITHUB
+## Note: This is only for help if you are stuck. I am not doing this to boost my ego, unlike other people who upload their solutions on GITHUB
 
   > Canadian Computing Competition - Junior
   - Junior #1 ✔
