@@ -17,6 +17,5 @@ Problems sets are organized into different folders
   
   > Canadian Computing Competition - Senior
   
-  > HackerRank --> Problem Solving
-  - `# of Solved: 4`
+  > HackerRank - Problem Solving
   
