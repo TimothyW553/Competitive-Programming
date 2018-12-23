@@ -42,7 +42,7 @@ int __attribute__((optimize("-O3"))) main() {
 }
 ```
 ### Java
-```
+```Java
 import java.util.*;
 import java.io.*;
 
