@@ -84,3 +84,21 @@ public class Main {
     }
 }
 ```
+### C
+```C
+#define _GNU_SOURCE
+#include <stdio.h>
+
+#define getchar() (*_pbuf ? *_pbuf++ : (_buf[fread_unlocked(_pbuf = _buf, 1, 65536, stdin)] = 0, *_pbuf++))
+char _buf[65537], *_pbuf = _buf;
+
+int readint() {
+	int n = 0, c, o = 0;
+	while ((c = getchar()) < '0') n |= c == '-';
+	do o = (o << 3) + (o << 1) + c - '0';
+	while ((c = getchar()) >= '0');
+	return n ? -o : o;
+}
+int main(void) {
+}
+```
