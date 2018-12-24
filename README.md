@@ -31,10 +31,11 @@ Problems sets are organized into different folders
 #include <bits/stdc++.h>
 using namespace std;
 
-#define scan(x) do{while((_n=getchar())<45);if(_n-45)x=_n;else x=getchar();for(x-=48;47<(_=getchar());x=(x<<3)+(x<<1)+_-48);if(_n<46)x=-x;}while(0)
-char _, _n;
+template<typename T> void scani(T &x) { x = 0;bool neg = 0;register T c = getchar_unlocked();if (c == '-')neg = 1, c = getchar_unlocked();while ((c < 48) || (c > 57))c = getchar_unlocked();for ( ; c < 48||c > 57 ; c = getchar_unlocked());for ( ; c > 47 && c < 58; c = getchar_unlocked() )x= (x << 3) + ( x << 1 ) + ( c & 15 );if (neg) x *= -1; }
+template<typename T> void printi(T n) { bool neg = 0;if (n < 0)n *= -1, neg = 1;char snum[65];int i = 0;do { snum[i++] = n % 10 + '0';n /= 10; } while (n);--i;if (neg)putchar_unlocked('-');while (i >= 0)putchar_unlocked(snum[i--]);putchar_unlocked(' '); }
 
-int32_t __attribute__((optimize("-O3"))) main() {
+
+int32_T __attribute__((optimize("-O3"))) main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
