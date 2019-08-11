@@ -30,15 +30,30 @@ Problems sets are organized into different folders
 #pragma GCC target "sse,sse2,sse3,sse4,abm,avx,aes,sse4a,sse4.1,sse4.2,mmx,popcnt,tune=native"
 #include <bits/stdc++.h>
 using namespace std;
+#define f first
+#define s second
+#define pb push_back
+#define FILL(a, b) memset(a, b, sizeof(a))
 
-template<typename T> void scani(T &x) { x = 0;bool neg = 0;register T c = getchar_unlocked();if (c == '-')neg = 1, c = getchar_unlocked();while ((c < 48) || (c > 57))c = getchar_unlocked();for ( ; c < 48||c > 57 ; c = getchar_unlocked());for ( ; c > 47 && c < 58; c = getchar_unlocked() )x= (x << 3) + ( x << 1 ) + ( c & 15 );if (neg) x *= -1; }
-template<typename T> void printi(T n) { bool neg = 0;if (n < 0)n *= -1, neg = 1;char snum[65];int i = 0;do { snum[i++] = n % 10 + '0';n /= 10; } while (n);--i;if (neg)putchar_unlocked('-');while (i >= 0)putchar_unlocked(snum[i--]);putchar_unlocked(' '); }
+typedef long long int ll;
+typedef pair<int, int> pii;
+typedef pair<int, pii> piii;
+typedef vector<int> vi;
+typedef vector<pii> vii;
 
+const int INF = 0x3f3f3f3f;
+const ll INFL = 0x3f3f3f3f3f3f3f3fLL;
+const int MOD = 1e9 + 7;
+const int MAX = 1e5 + 5;
 
-int32_T __attribute__((optimize("-O3"))) main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
-    cout.tie(nullptr);
+ll gcd(ll a, ll b){return b == 0 ? a : gcd(b, a % b);}
+ll lcm(ll a, ll b){return a*b/gcd(a,b);}
+ll fpow(ll b, ll exp, ll mod){if(exp == 0) return 1;ll t = fpow(b,exp/2,mod);if(exp&1) return t*t%mod*b%mod;return t*t%mod;}
+ll divmod(ll i, ll j, ll mod){i%=mod,j%=mod;return i*fpow(j,mod-2,mod)%mod;}
+
+int main() {
+    cin.sync_with_stdio(0);
+    cin.tie(0); cout.tie(0);
     return 0;
 }
 ```
