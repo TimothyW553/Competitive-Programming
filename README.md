@@ -6,19 +6,17 @@ Under the contest package, you will find my Java solutions to various programmin
 
 Problems sets are organized into different folders
 
-## Note: This is only for help if you are stuck. I am not doing this to boost my ego, unlike other people who upload their solutions on GITHUB
+## Note: This is only for help if you are stuck.
 
-  > Canadian Computing Competition - Junior
-  - `Junior #1` ✔
-  - `Junior #2` ✔
-  - `Junior #3` ✔
-  - `Junior #4` ✔
-  - `Junior #5`
-  
-  > Canadian Computing Competition - Senior
-  
-  > HackerRank - Problem Solving
-  
+  - Canadian Computing Competition - Junior
+  - Canadian Computing Competition - Senior
+  - HackerRank - Problem Solving
+  - CS Academy
+
+## Profile Links
+  - [HackerRank](www.hackerrank.com/TimothyW553)
+  - [DMOJ](https://dmoj.ca/user/timothyw553)
+  - [CS Academy](https://csacademy.com/user/TimothyW553)
 
 ## Competitive Templates:
 ### C++
