@@ -1,20 +1,5 @@
 # Competition Math
 
-## FAQ
-
-> Will this advice get me from x to y within z time?
-
-No guarantees.
-
-> What if I can't do a problem?
-
-If you're still coming up with new ideas keep thinking. Otherwise, you have several options:
- * Look at [part of] the solution. View tags [if CF].
- * Leave it for a while and do something else if you actually want to solve it on your own.
- * Get a hint from someone else.
-
-I'm impatient, so usually I go with the second option.
-
 ## Level 0: no prior contest experience / <90 on AMC 10
  * Of course, look up AMC if you don't know what it is.
  * You should make sure that you are familiar with standard prealgebra concepts. (This may not be as easy as you think!)
