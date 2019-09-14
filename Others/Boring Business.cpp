@@ -34,9 +34,9 @@ int main() {
     g[3][207] = 1, g[4][207] = 1, g[5][207] = 1, g[6][207] = 1;
     g[6][206] = 1, g[6][205] = 1, g[6][204] = 1, g[6][203] = 1, g[6][202] = 1, g[6][201] = 1, g[6][200] = 1, g[6][199] = 1;
     g[5][199] = 1, g[4][199] = 1;
-	int r = 4, c = 199;
-	bool flag = false;
-	while(1) {
+    int r = 4, c = 199;
+    bool flag = false;
+    while(1) {
         string dir; cin >> dir;
         int d; cin >> d;
         if(dir == "q") { break; }
