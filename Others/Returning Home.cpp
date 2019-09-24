@@ -34,7 +34,6 @@ int main() {
         locSt.push(loc);
     }
     while(!dirSt.empty()) {
-//        cout << dirSt.top() << "\n";
         if(dirSt.top() == "R" && locSt.top() != "HOME") {
             cout << "Turn LEFT onto " << locSt.top() << " street." << "\n";
         } else if(dirSt.top() == "L"  && locSt.top() != "HOME") {
