@@ -38,9 +38,27 @@ int main() {
     int m; cin >> m;
     for(int i = 0; i < m; i++) {
     	int number; cin >> number;
-    	for(auto &x : phoneBook) {
-    		x.f.s
+    	for(int i = 0; i < phoneBook.size(); i++) {
+			if(phoneBook[i].f.s == number) {
+				phoneBook[i].s++;
+			}
     	}
     }
+    int max = -1;
+    string maxName = "";
+    int maxNumb = 0;
+    for(int i = 0; i < phoneBook.size(); i++) {
+    	if(phoneBook[i].s > max) {
+			max = phoneBook[i].s;
+			maxName = phoneBook[i].f.f;
+			maxNumb = phoneBook[i].f.s;
+    	} else if(phoneBook[i].s == max) {
+    		if(phoneBook[i].f.s < maxNumb) {
+    			maxName = phoneBook[i].f.f;
+    			maxNumb = phoneBook[i].f.s;
+    		}
+    	}
+    }
+    cout << maxName << "\n";
     return 0;
 }
