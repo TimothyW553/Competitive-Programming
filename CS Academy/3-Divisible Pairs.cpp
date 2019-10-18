@@ -34,4 +34,4 @@ int main() {
     }
     cout << freq0*(freq0-1)/2+freq1*freq2 << "\n";
     return 0;
-}
+} 
