@@ -18,6 +18,7 @@ class Node {
         right = null;
     }
 }
+
 public class ccc10s5 {
 
     public static Node buildTree(String s) {
@@ -86,6 +87,7 @@ public class ccc10s5 {
             }
         }
     }
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Node root = buildTree(sc.nextLine());
