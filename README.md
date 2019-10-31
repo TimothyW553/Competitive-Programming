@@ -19,6 +19,7 @@ Problems sets are organized into different folders
   - [HackerRank](www.hackerrank.com/TimothyW553)
   - [DMOJ](https://dmoj.ca/user/timothyw553)
   - [CS Academy](https://csacademy.com/user/TimothyW553)
+  - [WCIPEG](https://wcipeg.com/user/TimothyW553)
 
 ## Competitive Templates:
 ### C++
