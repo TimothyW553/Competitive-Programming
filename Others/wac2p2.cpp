@@ -4,6 +4,7 @@ using namespace std;
 #define s second
 #define pb push_back
 #define FILL(a, b) memset(a, b, sizeof(a))
+#define c(a) count(a)
 
 typedef long long int ll;
 typedef pair<int, int> pii;
@@ -23,7 +24,9 @@ ll lcm(ll a, ll b){return a*b/gcd(a,b);}
 ll fpow(ll b, ll exp, ll mod){if(exp == 0) return 1;ll t = fpow(b,exp/2,mod);if(exp&1) return t*t%mod*b%mod;return t*t%mod;}
 ll divmod(ll i, ll j, ll mod){i%=mod,j%=mod;return i*fpow(j,mod-2,mod)%mod;}
 
-
+pll greed[1000005] = {};
+mpll mp = {};
+ll last = MAX;
 int main() {
     cin.sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
@@ -31,32 +34,26 @@ int main() {
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
     #endif
-    pll arr[1000005];
-    mpll mp;
     ll n, m, q; cin >> n >> m >> q;
-    ll crnt = n, lst = MAX;
     mp[n] = MAX;
-    for(int i = 1; i <= q; i++){
+    ll count = n;
+    for(int i = 0; i < q; i++) {
         ll d, p; cin >> d >> p;
-        if(!mp.count(d)){
-            mp[d] = lst;
-        }
-        arr[i].f = lst;
-        arr[i].s = max(0LL, crnt-d-1);
-        crnt = d;
-        lst = p;
+        if(!mp.c(d)) { mp[d] = last; }
+        ll temp = count - d - 1;
+        greed[i+1].f = last; greed[i+1].s = max(0LL, temp);
+        count = d; last = p;
         mp[d] = min(mp[d], p);
     }
-    arr[q+1].f = lst; arr[q+1].s = crnt-1; q++;
+    greed[q+1].f = last; greed[q+1].s = count-1; q++;
     for(auto p : mp){
-        arr[++q].f = p.s; arr[q].s = 1;
+        greed[++q].f = p.s; greed[q].s = 1;
     }
-    sort(arr+1, arr+1+q);
-    long long ans = 0;
-    for(int i = 1; i <= q && m; i++){
-        ans += min(m, arr[i].s) * arr[i].f;
-        m -= arr[i].s;
-        m = max(0LL, m);
+    sort(greed+1, greed+1+q);
+    ll ans = 0LL;
+    for(int i = 0; i < q && m; i++) {
+        ans += min(m, greed[i+1].s) * greed[i+1].f;
+        m -= greed[i+1].s; m = max(0LL, m);
     }
     cout << ans << "\n";
     return 0;
