@@ -14,6 +14,7 @@ Problems sets are organized into different folders
   - CS Academy
   - USACO
   - T-414-ÁFLV
+  - DMOJ
 
 ## Profile Links
   - [HackerRank](www.hackerrank.com/TimothyW553)
