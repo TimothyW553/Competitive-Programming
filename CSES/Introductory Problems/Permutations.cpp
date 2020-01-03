@@ -34,14 +34,12 @@ int main() {
         cout << "NO SOLUTION" << "\n";
         return 0;
     }
-    string ans = "";
-    for(int i = 1; i <= n; i++) {
-        if(i % 2 == 0) {
-            cout << i << " ";
-        } else {
-            ans += (i + " ");
-        }
+    for(int i = 2; i <= n; i += 2) {
+        cout << i << " ";
     }
-    cout << ans << "\n";
+    for(int i = 1; i <= n; i += 2) {
+        cout << i << " ";
+    }
+    cout << "\n";
     return 0;
 }
