@@ -26,10 +26,10 @@ ll divmod(ll i, ll j, ll mod){i%=mod,j%=mod;return i*fpow(j,mod-2,mod)%mod;}
 int main() {
     cin.sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-    // #ifndef ONLINE_JUDGE
-    // freopen("input.txt", "r", stdin);
-    // freopen("output.txt", "w", stdout);
-    // #endif
+    #ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+    #endif
     ll n; cin >> n;
     cout << fpow(2, n, MOD) << "\n";
     return 0;
