@@ -1,0 +1,10 @@
+8 8
+abcdefgh
+sort 5 8
+pop_back
+back
+reverse 1 6
+front
+push_back i
+print 4
+substr 2 6
