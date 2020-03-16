@@ -15,6 +15,7 @@ Problems sets are organized into different folders
   - USACO
   - T-414-ÁFLV
   - DMOJ
+  - Assiut ICPC Level 0 Training Sheet 
 
 ## Profile Links
   - [HackerRank](www.hackerrank.com/TimothyW553)
@@ -22,6 +23,7 @@ Problems sets are organized into different folders
   - [CS Academy](https://csacademy.com/user/TimothyW553)
   - [WCIPEG](https://wcipeg.com/user/TimothyW553)
   - [A2OJ](https://a2oj.com/categories)
+  - [Codeforces](https://codeforces.com/profile/TimothyW553)
 
 ## Competitive Templates:
 ### C++
