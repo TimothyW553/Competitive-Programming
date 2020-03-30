@@ -30,6 +30,12 @@ int main() {
     freopen("../input.txt", "r", stdin);
     freopen("../output.txt", "w", stdout);
     #endif
-    
+    ll x, n; cin >> x >> n;
+    ll sum = 0;
+    for(int i = 2; i <= n; i += 2) {
+        auto powered = pow(x, i);
+        sum += powered;
+    }
+    cout << sum << "\n";
     return 0;
 }
