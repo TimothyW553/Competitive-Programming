@@ -1,4 +1,4 @@
-#### A. Print from 1 to N
+## A. Print from 1 to N
 
 You will be given a number N. Print from 1 to N in separate lines using recursion.
 
@@ -24,7 +24,7 @@ Print N lines contain number from 1 to N.
 
 
 
-#### B. Print from N to 1
+## B. Print from N to 1
 
 You will be given a number N. Print from N to 1 separated by a single space using recursion.
 
@@ -46,7 +46,7 @@ Print from N to 1 separated by a single space.
 
 
 
-#### C. Factorial
+## C. Factorial
 
 You will be given a number N. Using recursion get the factorial of N.
 
@@ -68,7 +68,7 @@ Print the factorial of the number N.
 
 
 
-#### D. Max number
+## D. Max number
 
 You will be given an array of size N. Using recursion get the maximum value in this array.
 
@@ -92,7 +92,7 @@ print a maximum value in this array.
 
 
 
-#### E. Combination
+## E. Combination
 
 You will be given two number n and r. Your are asked to print the value nCr using recursion.
 
@@ -122,7 +122,7 @@ Print the value <sub>n</sub>C<sub>r</sub>.
 
 
 
-#### F. GCD
+## F. GCD
 
 You will be given two numbers X and Y. You are asked to print the Greatest Common Divisor between X and Y using recursion.
 
@@ -152,7 +152,7 @@ Print the GCD between X and Y.
 
 
 
-#### G. Base Conversion
+## G. Base Conversion
 
 In this problem, you need to convert a decimal number into a binary number.
 
@@ -177,7 +177,7 @@ For each input number you have to print the converted binary number.
 
 
 
-#### H. Count Vowels
+## H. Count Vowels
 
 In this problem, you just need to count the number of vowels contain in an input string using recursion.
 
@@ -199,7 +199,7 @@ Data Structure Lab
 
 
 
-#### I. Fibonacci
+## I. Fibonacci
 
 Given an integer N, print the value of N<sub>th</sub> Fibonacci number using recursion. Note that, F<sub>0</sub> = 0 and F<sub>1</sub> = 1. Also, F<sub>n</sub> = F<sub>n - 1</sub> + F<sub>n - 2</sub>.
 
@@ -221,7 +221,7 @@ Output will consist of 1 line: Value of Nth Fibonacci.
 
 
 
-#### J. Sum of a Matrix
+## J. Sum of a Matrix
 
 Given two same size matrices find its summation.
 
@@ -248,7 +248,7 @@ Output will consist of Result matrix.
 
 
 
-#### K. Multiplication of Matrices
+## K. Multiplication of Matrices
 
 Given two matrices find its multiplication using recursion.
 
@@ -274,7 +274,7 @@ Output will consist of Result matrix.
 
 
 
-#### L. Print Even Indices
+## L. Print Even Indices
 
 Given an integer N, and N integers, print the numbers in even indices in reverse order using recursion. Assume 0-based indexing.
 
@@ -306,7 +306,7 @@ The output will consist of numbers in even indices in reverse order
 
 
 
-#### M. Sum of an Array using Recursion
+## M. Sum of an Array using Recursion
 
 Given an integer N, and N integers, find the sum of the N integers using recursion.
 
@@ -338,7 +338,7 @@ The output will consist of 1 line: Value of sum.
 
 
 
-#### N. Print Digits using Recursion
+## N. Print Digits using Recursion
 
 In this problem, you need to separate and print the digits of a given input number using recursion. You are not allowed to input the integer number as a string.
 
