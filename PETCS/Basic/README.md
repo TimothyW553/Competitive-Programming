@@ -1,5 +1,7 @@
 # Basics
 
+DISCLAIMER: Most problems but not all problems have been posted.
+
 ## Introductory:
 - “A Plus B” - Easy
   - https://dmoj.ca/problem/aplusb
