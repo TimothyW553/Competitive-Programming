@@ -245,13 +245,13 @@
     - https://dmoj.ca/problem/ccc08s3
     - https://dmoj.ca/problem/dmopc13c3p3
   - Tomb Robbing/Floor Plan - Easy/Medium
-	  - https://dmoj.ca/problem/vmss15c1p2	
+    - https://dmoj.ca/problem/vmss15c1p2	
     - https://dmoj.ca/problem/ccc03s3
   - Alex and Animal Rights - Medium
-	  - https://dmoj.ca/problem/tsoc16c1p4
+    - https://dmoj.ca/problem/tsoc16c1p4
   - AFK/Slikar - Medium/Hard
     - https://dmoj.ca/problem/dmopc13c1p4
-	  - https://dmoj.ca/problem/coci06c1p4
+    - https://dmoj.ca/problem/coci06c1p4
   ### Formatting Graphs
   - Surfing - Medium/Hard
 	  - https://dmoj.ca/problem/ccc00s3
