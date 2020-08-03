@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
+typedef long long ll;
 const int MAX = 5005;
-int N, M, K, Q, dsa[MAX][MAX], psa[MAX][MAX];
+ll N, M, K, Q, dsa[MAX][MAX], na[MAX][MAX], psa[MAX][MAX];
 int main() {
     cin.tie(0)->sync_with_stdio(0);
     #ifndef ONLINE_JUDGE
@@ -9,23 +10,24 @@ int main() {
     freopen("../../output.txt", "w", stdout);
     #endif
     cin >> N >> M >> K;
-    for(int i = 0, x, y, X, Y; i < K; i++) {
-        cin >> x >> y >> X >> Y;
-        dsa[x][y] += 1;
-        dsa[X+1][y] -= 1;
-        dsa[x][Y+1] -= 1;
-        dsa[X+1][Y+1] += 1;
+    for(ll i = 0, x1, y1, x2, y2; i < K; i++) {
+        cin >> x1 >> y1 >> x2 >> y2;
+        dsa[x1][y1] += 1;
+        dsa[x2+1][y1] -= 1;
+        dsa[x1][y2+1] -= 1;
+        dsa[x2+1][y2+1] += 1;
     }
-    psa[0][0] = dsa[0][0];
-    for(int i = 1; i < N; i++) {
-        for(int j = 1; j < M; j++) {
-            psa[i][j] = dsa[i][j] + psa[i-1][j] + psa[i][j-1] - psa[i-1][j-1];
+    // dsa --> [psa] --> normal arr
+    for(ll i = 1; i <= N; i++) {
+        for(ll j = 1; j <= M; j++) {
+            na[i][j] = dsa[i][j] + na[i-1][j] + na[i][j-1] - na[i-1][j-1];
+            psa[i][j] = na[i][j] + psa[i-1][j] + psa[i][j-1] - psa[i-1][j-1];
         }
     }
     cin >> Q;
-    for(int i = 0, a, b, c, d; i < Q; i++) {
-        cin >> a >> b >> c >> d;
-        cout << (psa[c][d] - (psa[a-1][d] + psa[c][b-1] - psa[a-1][b-1])) << "\n";
+    for(ll i = 0, x1, y1, x2, y2; i < Q; i++) {
+        cin >> x1 >> y1 >> x2 >> y2;
+        cout << (psa[x2][y2] - psa[x1-1][y2] - psa[x2][y1-1] + psa[x1-1][y1-1]) << "\n";
     }
     return 0;
 }
