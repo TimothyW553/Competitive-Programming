@@ -23,21 +23,8 @@ int main() {
     }
     for(int i = 1; i <= M; i++) {
         for(int j = 1; j <= N; j++) {
-            cout << arr[i][j] << " ";
-        }
-        cout << "\n";
-    }
-    for(int i = 1; i <= M; i++) {
-        for(int j = 1; j <= N; j++) {
             psa[i][j] = arr[i][j] + psa[i-1][j] + psa[i][j-1] - psa[i-1][j-1];
         }
-    }
-    cout << "\n";
-    for(int i = 1; i <= M; i++) {
-        for(int j = 1; j <= N; j++) {
-            cout << psa[i][j] << " ";
-        }
-        cout << "\n";
     }
     cout << "\n";
     for(int x1, y1, x2, y2;;) {
